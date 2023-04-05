@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobby Page</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <h1>My Hobby: Coding</h1>
+        <img class="code" src="code.jpeg" alt="code logo" style="width: 3%">
+        
+    </header>
+
+    <div class="content">
+        <section class="list">
+            <h2>Why do I <em>love</em> this?</h2>
+
+            <ul>
+
+                <li>You build things</li>
+                <li> You break things (and possibly then understand how they work) </li>
+                <li>You fix things ( it is relieving and fulfilling and unfortunately it does not work so easily with
+                    people and the
+                    problems in society) </li>
+                <li>You learn to break big problems into smaller, easier to accomplish, challenges (and this is really
+                    useful in life too) </li>
+                <li>You solve problems (often it is not even a matter of technical skill rather, communication, critical
+                    thinking, asking
+                    questions) </li>
+                <li> Every day is different, with different features, different bugs, different challenges, leave alone
+                    different tech which change very fast and require us to stay up to date and
+                    refresh our skillset </li>
+            </ul>
+
+        </section>
+        <div class="content2">
+            <div class="time">
+                <p>Current Date & Time is</p>
+                <p id="p1"></p>
+
+            </div>
+
+
+            <div class="polaroid">
+                <img src="programmer.jpg" alt="programmer & coffee" style="width:100%">
+                <div class="container">
+                    <p>Chilling with coffee while coding</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <footer>
+        <p>
+            Check this cool<a href="https://www.freecodecamp.org"> website </a>if you love coding too...
+        </p>
+    </footer>
+
+    <script>
+        let date = new Date();
+        let current_date = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+        let current_time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+        let date_time = current_date + " " + current_time;
+        document.getElementById("p1").innerHTML = date_time;
+    </script>
+</body>
+
+
+
+
+</html>

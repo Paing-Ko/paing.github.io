@@ -1,0 +1,70 @@
+body {
+    background-image: url("coding.jpg");
+    font-family: sans-serif;
+
+}
+
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+h1, footer {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+
+.content {
+    margin: auto 1em;
+    border-style: dotted;
+    border-color: gold;
+}
+
+
+a{
+    color: black;
+}
+
+.list{
+    color: green;
+    text-align: left;
+    margin-right: 20%;
+}
+
+li{
+    margin: 5px 5px;
+}
+
+
+.content2{
+    display: flex;
+}
+
+.time{
+    text-align: justify;
+    margin-left: 8%;
+    margin-top: 8%;
+
+}
+
+.polaroid{
+    margin-left: 10%;
+}
+
+#p1 {
+ font-size: 24px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
